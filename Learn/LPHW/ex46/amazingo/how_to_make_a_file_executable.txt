@@ -1,0 +1,14 @@
+To make a python file (py) executable for os
+
+1. Ensure the first line of your Python script is #!/usr/bin/env python
+2. If encoding is needed (if you have special characters like Turkish, Chineese) add after the first line # -*- coding: utf-8 -*-
+3. Change the extension of the file to .command (i.e. If the file you want to make executable is called Test.py, change it to Test.command)
+4. In Terminal make the Python script file executable by running chmod +x Test.command (obviously the Test.command will be whatever your file is from Step 2 above).
+
+
+By following the above steps, you should be able to double-click your Python script within macOS Sierra and it will open a terminal window and run the script
+
+In source header you can declare:
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-

@@ -1,3 +1,3 @@
 # Python
 
-Repository for Python projects!
+Repository for Python educational material!
